@@ -1,0 +1,9 @@
+# local env file
+.env*
+
+
+
+# mics'
+.vscode
+
+/folder_name
