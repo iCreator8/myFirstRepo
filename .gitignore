@@ -1,0 +1,11 @@
+# local env file
+.env*
+
+#files
+*.css
+*.js
+
+# mics'
+.vscode
+
+/folder_name
