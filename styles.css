@@ -5,12 +5,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* h2 {
-	text-align: center;
-	color: white;
-	margin-top: 70px;
-} */
-
 .app-body {
 	text-align: center;
 	background-color: #282c34;
@@ -22,6 +16,7 @@ body {
 	font-size: calc(10px + 2vmin);
 	color: white;
 }
+
 .box {
 	display: flex;
 	flex-direction: column;
@@ -32,6 +27,7 @@ body {
 	height: 350px;
 	background: #fff;
 }
+
 .box::before {
 	content: "";
 	position: absolute;
@@ -43,6 +39,7 @@ body {
 	border-radius: 5px;
 	transform: skewX(2deg) skewY(4deg);
 }
+
 .box::after {
 	content: "";
 	position: absolute;
@@ -53,6 +50,7 @@ body {
 	background: linear-gradient(315deg, #d95252, #d95252);
 	transform: skewX(2deg) skewY(2deg);
 }
+
 .box span {
 	position: absolute;
 	top: 0;
@@ -62,6 +60,7 @@ body {
 	background: #282c34;
 	z-index: 10;
 }
+
 h2,
 h3 {
 	position: relative;
@@ -70,6 +69,7 @@ h3 {
 	z-index: 11;
 	margin: 0;
 }
+
 .box h3 {
 	font-size: 1.25em;
 	transition: ease-in-out 0.3s;
@@ -136,22 +136,3 @@ ul li:nth-child(4) {
 	background: #4fc3f7;
 	box-shadow: 0 0 50px #4fc3f7;
 }
-
-/* 
-ul li:nth-child(5) {
-  animation-delay: -0.6s;
-  background: #ba68c8;
-  box-shadow: 0 0 50px #ba68c8;
-  
-}
-ul li:nth-child(6) {
-  animation-delay: -0.4s;
-  background: #f57c00;
-  box-shadow: 0 0 50px #f57c00;
-}
-
-ul li:nth-child(7) {
-  animation-delay: -0.2s;
-  background: #673ab7;
-  box-shadow: 0 0 50px #673ab7;
-} */
